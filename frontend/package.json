@@ -1,0 +1,46 @@
+{
+  "name": "billstore",
+  "version": "0.1.0",
+  "description": "the frontend of the billstore",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "starthttps": "node server.js"
+  },
+  "keywords": [],
+  "author": "T.T and BillE",
+  "license": "MIT",
+  "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^10.0.2",
+    "axios": "^0.21.1",
+    "global": "^4.4.0",
+    "next": "^11.1.2",
+    "postcss": "^8.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.7.1",
+    "react-query": "^3.12.1",
+    "react-redux": "^7.2.0",
+    "react-resizable": "^3.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "tailwindcss": "^2.2.17",
+    "zustand": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@types/react": "^16.14.5",
+    "@types/react-dom": "^17.0.5",
+    "@types/react-resizable": "^1.7.2",
+    "eslint": "^7.28.0",
+    "eslint-config-next": "^11.0.0",
+    "prettier": "2.2.1",
+    "typescript": "^4.3.2"
+  }
+}
