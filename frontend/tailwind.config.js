@@ -16,7 +16,7 @@ module.exports = {
                 dark: 'rgb(31, 32, 35)',
                 'dark-light': 'rgb(39, 40, 43)',
                 'dark-lightest': 'rgb(46, 48, 51)',
-                gray: colors.trueGray,
+                gray: colors.gray,
             },
         },
     },

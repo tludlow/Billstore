@@ -1,3 +1,5 @@
+import Layout from '@/components/Layouts/Layout'
+
 export default function Index() {
-  return <h1>hello</h1>;
+    return <Layout contained></Layout>
 }
